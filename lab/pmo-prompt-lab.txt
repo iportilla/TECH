@@ -1,0 +1,65 @@
+Exercise 1
+Text Classification
+Named Entity Recognition (Zero-Shot)
+------------------------------------
+
+Extract the name and mailing address from this email:
+
+Dear Kaylee,
+It was great to talk to you at the seminar. I thought Jane's talk was quite good.
+Thank you for the book. Here's my address 2111 Ash Lane, Boulder, CO 80301
+
+Best,
+Marilú
+
+
+Exercise 2
+Text Classification
+Custom Named Entities (Few-Shot)
+--------------------------------
+
+Extract job titles from the following sentences.
+
+Sentence: Jane Doe has been working for Microsoft for 20 years as a Linux Engineer.
+Job title: Linux Engineer
+###
+Sentence: Jane Doe has been working for Microsoft for 20 years and she loved it.
+Job title: none
+###
+Sentence: Marc Simoncini | Director | Meetic
+Job title: Director
+###
+Sentence: Damien is the CTO of Platform.sh, he was previously the CTO of Commerce Guys, a leading ecommerce provider.
+
+
+Exercise 3
+Text Classification
+Multi-Label Text Classification (Few-Shot)
+------------------------------------------
+
+
+
+The following is a list of movies and the categories they fall into:
+
+Topgun: As students at the United States Navy's elite fighter weapons school compete to be best in the class, one daring young pilot learns a few things from a civilian instructor that are not taught in the classroom.
+Category: Drama, Action
+
+Hustle: A basketball scout discovers a phenomenal street ball player while in Spain and sees the prospect as his opportunity to get back into the NBA.
+Category: Comedy, Drama, Sport
+
+The Northman: From visionary director Robert Eggers comes The Northman, an action-filled epic that follows a young Viking prince on his quest to avenge his father's murder.
+
+
+Exercise 4
+Abstractive Summarization
+Contact Center Summarization
+-----------------------------
+
+Summarize this for a call center agent:
+
+Agent: Thank you for calling ADM. Who am I am speaking to? 
+Customer: Hello, my name is Peter Smith. I own a small business and have some questions regarding payroll processing. 
+Agent: Good morning, Peter, before we get started may I ask you a few questions so that I better answer your questions today? 
+Customer: Thank you that is quite helpful. Are there specific regulations that I need to follow? Agent: Certain aspects of payroll processing are regulated by the Internal Revenue Service (IRS) and the Department of Labor (DOL)
+
+
